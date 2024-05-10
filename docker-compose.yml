@@ -5,7 +5,7 @@ services:
     ports:
       - "3001:3001"
     environment:
-      MONGO_URI: "<Add_your_MongoDbUrll>"
+      MONGO_URI: "<Add_your_MongoDbUrl>"
     volumes:
       - ./server:/app
     command: npm run start
